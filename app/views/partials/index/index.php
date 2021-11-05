@@ -5,21 +5,71 @@
         <div  class=" py-5">
             <div class="container">
                 <div class="row ">
-                    <div class="col-md-8 comp-grid">
+                    <div class="col-md-4 comp-grid">
                         <div class="">
                             <div class="fadeIn animated mb-4">
                                 <div class="text-capitalize">
-                                    <h2 class="text-capitalize">Welcome To <?php echo SITE_NAME ?></h2>
+                                    <b><u><h2 class="text-capitalize">WELCOME TO <?php echo SITE_NAME ?></h2>
+                                    </u>
+                                </b>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <br><br>
                     <div class="col-md-4 comp-grid">
                         <?php $this :: display_page_errors(); ?>
                         
                         <div  class="bg-light p-3 animated fadeIn page-content">
                             <div>
                                 <h4><i class="fa fa-key"></i> User Login</h4>
+                                <hr />
+                                <?php 
+                                $this :: display_page_errors(); 
+                                ?>
+                                 <form  action="USERS/login.php"  method="post">
+        <div class="input-group form-group">
+            <input placeholder="Enter Email" name="email"  required="required" class="form-control" type="text"  />
+            <div class="input-group-append">
+                <span class="input-group-text"><i class="form-control-feedback fa fa-user"></i></span>
+            </div>
+        </div>
+        <div class="input-group form-group">
+            <input  placeholder="Password" required="required"  name="password" class="form-control " type="password" />
+            <div class="input-group-append">
+                <span class="input-group-text"><i class="form-control-feedback fa fa-key"></i></span>
+            </div>
+        </div>
+        <div class="row clearfix mt-3 mb-3">
+            <div class="col-6">
+                <label class="">
+                    <input value="true" type="checkbox" name="rememberme" />
+                    Remember Me
+                </label>
+            </div>
+        </div>
+        <div class="form-group text-center">
+            <button class="btn btn-primary btn-block btn-md" type="submit" name="submit"> 
+                <i class="load-indicator">
+                    <clip-loader :loading="loading" color="#fff" size="20px"></clip-loader> 
+                </i>
+                Login <i class="fa fa-key"></i>
+            </button>
+        </div>
+        <hr />
+        <div class="text-center">
+            Don't Have an Account? <a href="USERS/register.php" class="btn btn-success">Register
+            <i class="fa fa-user"></i></a>
+        </div>
+    </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 comp-grid">
+                        <?php $this :: display_page_errors(); ?>
+                        <div  class="bg-light p-3 animated fadeIn page-content">
+                            <div>
+                                <h4><i class="fa fa-key"></i> Admin Login</h4>
                                 <hr />
                                 <?php 
                                 $this :: display_page_errors(); 
@@ -37,7 +87,7 @@
                                             <span class="input-group-text"><i class="form-control-feedback fa fa-key"></i></span>
                                         </div>
                                     </div>
-                                    <div class="row clearfix mt-3 mb-3">
+                                    <!-- <div class="row clearfix mt-3 mb-3">
                                         <div class="col-6">
                                             <label class="">
                                                 <input value="true" type="checkbox" name="rememberme" />
@@ -47,23 +97,24 @@
                                         <div class="col-6">
                                             <a href="<?php print_link('passwordmanager') ?>" class="text-danger"> Reset Password?</a>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="form-group text-center">
                                         <button class="btn btn-primary btn-block btn-md" type="submit"> 
                                             <i class="load-indicator">
                                                 <clip-loader :loading="loading" color="#fff" size="20px"></clip-loader> 
                                             </i>
-                                            Login <i class="fa fa-key"></i>
+                                            Login <a href="<?php print_link ("home/index")?>"><i class="fa fa-key"></i></a>
                                         </button>
                                     </div>
                                     <hr />
-                                    <div class="text-center">
+                                    <!-- <div class="text-center">
                                         Don't Have an Account? <a href="<?php print_link("index/register") ?>" class="btn btn-success">Register
                                         <i class="fa fa-user"></i></a>
-                                    </div>
+                                    </div> -->
                                 </form>
                             </div>
                         </div>
+    
                     </div>
                 </div>
             </div>

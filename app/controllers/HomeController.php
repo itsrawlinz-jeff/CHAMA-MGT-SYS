@@ -12,6 +12,7 @@ class HomeController extends SecureController{
 	function index(){
 		
 		$this->render_view("home/index.php" , null , "main_layout.php");
+		//$this->render_view("home/user.php" , null , "user_layout.php");
 
 	}
 }

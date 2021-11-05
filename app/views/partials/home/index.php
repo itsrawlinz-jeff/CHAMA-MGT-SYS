@@ -8,11 +8,11 @@ $current_page = $this->set_current_page_link();
         <div class="container">
             <div class="row ">
                 <div class="col-md-12 comp-grid">
-                    <h4 >Our Dashboard</h4>
+                    <h4 >Admin Dashboard</h4>
                 </div>
                 <div class="col-md-6 comp-grid">
                 </div>
-                <div class="col-md-3 col-sm-4 comp-grid">
+                <!-- <div class="col-md-3 col-sm-4 comp-grid">
                     <?php $rec_count = $comp_model->getcount_users();  ?>
                     <a class="animated rubberBand record-count alert alert-info"  href="<?php print_link("users/") ?>">
                         <div class="row">
@@ -28,8 +28,8 @@ $current_page = $this->set_current_page_link();
                             <h4 class="value"><strong><?php echo $rec_count; ?></strong></h4>
                         </div>
                     </a>
-                </div>
-                <div class="col-md-3 col-sm-3 comp-grid">
+                </div> -->
+                <!-- <div class="col-md-3 col-sm-3 comp-grid">
                     <?php $rec_count = $comp_model->getcount_comment();  ?>
                     <a class="animated rubberBand record-count card bg-dark text-white"  href="<?php print_link("comment/") ?>">
                         <div class="row">
@@ -45,7 +45,7 @@ $current_page = $this->set_current_page_link();
                             <h4 class="value"><strong><?php echo $rec_count; ?></strong></h4>
                         </div>
                     </a>
-                </div>
+                </div> -->
                 <div class="col-md-3 col-sm-4 comp-grid">
                     <?php $rec_count = $comp_model->getcount_complaints();  ?>
                     <a class="animated rubberBand record-count card bg-success text-white"  href="<?php print_link("complaints/") ?>">
@@ -63,7 +63,7 @@ $current_page = $this->set_current_page_link();
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-3 comp-grid">
+                <!-- <div class="col-sm-3 comp-grid">
                     <?php $rec_count = $comp_model->getcount_staff();  ?>
                     <a class="animated zoomIn record-count card bg-warning text-white"  href="<?php print_link("staff/") ?>">
                         <div class="row">
@@ -79,7 +79,7 @@ $current_page = $this->set_current_page_link();
                             <h4 class="value"><strong><?php echo $rec_count; ?></strong></h4>
                         </div>
                     </a>
-                </div>
+                </div> -->
                 <div class="col-md-3 col-sm-4 comp-grid">
                     <?php $rec_count = $comp_model->getcount_member();  ?>
                     <a class="animated rubberBand record-count alert alert-warning"  href="<?php print_link("member/") ?>">
@@ -114,7 +114,7 @@ $current_page = $this->set_current_page_link();
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3 col-sm-4 comp-grid">
+                <!-- <div class="col-md-3 col-sm-4 comp-grid">
                     <?php $rec_count = $comp_model->getcount_contributions();  ?>
                     <a class="animated zoomIn record-count alert alert-primary"  href="<?php print_link("contributions/") ?>">
                         <div class="row">
@@ -130,7 +130,7 @@ $current_page = $this->set_current_page_link();
                             <h4 class="value"><strong><?php echo $rec_count; ?></strong></h4>
                         </div>
                     </a>
-                </div>
+                </div> -->
                 <div class="col-md-3 col-sm-4 comp-grid">
                     <?php $rec_count = $comp_model->getcount_desciplinary();  ?>
                     <a class="animated rubberBand record-count alert alert-dark"  href="<?php print_link("desciplinary/") ?>">
@@ -148,7 +148,7 @@ $current_page = $this->set_current_page_link();
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3 col-sm-4 comp-grid">
+                <!-- <div class="col-md-3 col-sm-4 comp-grid">
                     <?php $rec_count = $comp_model->getcount_logisticasset();  ?>
                     <a class="animated rubberBand record-count card bg-warning text-white"  href="<?php print_link("logistic_asset/") ?>">
                         <div class="row">
@@ -164,8 +164,8 @@ $current_page = $this->set_current_page_link();
                             <h4 class="value"><strong><?php echo $rec_count; ?></strong></h4>
                         </div>
                     </a>
-                </div>
-                <div class="col-md-3 col-sm-4 comp-grid">
+                </div> -->
+                <!-- <div class="col-md-3 col-sm-4 comp-grid">
                     <?php $rec_count = $comp_model->getcount_project();  ?>
                     <a class="animated rubberBand record-count alert alert-primary"  href="<?php print_link("project/") ?>">
                         <div class="row">
@@ -181,8 +181,8 @@ $current_page = $this->set_current_page_link();
                             <h4 class="value"><strong><?php echo $rec_count; ?></strong></h4>
                         </div>
                     </a>
-                </div>
-                <div class="col-md-3 col-sm-4 comp-grid">
+                </div> -->
+                <!-- <div class="col-md-3 col-sm-4 comp-grid">
                     <?php $rec_count = $comp_model->getcount_loanpayment();  ?>
                     <a class="animated slideInLeft record-count card bg-light text-dark"  href="<?php print_link("loanpayment/") ?>">
                         <div class="row">
@@ -198,8 +198,8 @@ $current_page = $this->set_current_page_link();
                             <h4 class="value"><strong><?php echo $rec_count; ?></strong></h4>
                         </div>
                     </a>
-                </div>
-                <div class="col-md-3 col-sm-4 ">
+                </div> -->
+                <!-- <div class="col-md-3 col-sm-4 ">
                     <?php $rec_count = $comp_model->getcount_expenses();  ?>
                     <a class="animated rubberBand record-count card bg-success text-white"  href="<?php print_link("expenses/") ?>">
                         <div class="row">
@@ -215,7 +215,7 @@ $current_page = $this->set_current_page_link();
                             <h4 class="value"><strong><?php echo $rec_count; ?></strong></h4>
                         </div>
                     </a>
-                </div>
+                </div> -->
                 <div class="col-md-3 col-sm-4 comp-grid">
                     <?php $rec_count = $comp_model->getcount_bankinfo();  ?>
                     <a class="animated rubberBand record-count card bg-light text-dark"  href="<?php print_link("bank_info/") ?>">
@@ -233,7 +233,7 @@ $current_page = $this->set_current_page_link();
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3 col-sm-4 comp-grid">
+                <!-- <div class="col-md-3 col-sm-4 comp-grid">
                     <?php $rec_count = $comp_model->getcount_logisticasset();  ?>
                     <a class="animated slideInRight record-count alert alert-warning"  href="<?php print_link("logistic_asset/") ?>">
                         <div class="row">
@@ -250,7 +250,7 @@ $current_page = $this->set_current_page_link();
                         </div>
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>

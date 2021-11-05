@@ -8,7 +8,7 @@ define("ROOT", str_replace("\\", "/", dirname(__FILE__)) . "/");
 // return the application directory name.
 define("ROOT_DIR_NAME", basename(ROOT));
 
-define("SITE_NAME", "system portal");
+define("SITE_NAME", "MERRY-GO ROUND SYSTEM");
 
 
 // Get Site Address Dynamically

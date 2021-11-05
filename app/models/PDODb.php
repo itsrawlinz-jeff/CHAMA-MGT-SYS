@@ -1,19 +1,6 @@
 <?php
 
-/**
- * PDODb Class
- *
- * @category  Database Access
- * @package   PDODb
- * @author    Jeffery Way <jeffrey@jeffrey-way.com>
- * @author    Josh Campbell <jcampbell@ajillion.com>
- * @author    Alexander V. Butenko <a.butenka@gmail.com>
- * @author    Vasiliy A. Ulin <ulin.vasiliy@gmail.com>
- * @copyright Copyright (c) 2010-2016
- * @license   http://opensource.org/licenses/lgpl-3.0.html The GNU Lesser General Public License, version 3.0
- * @link      http://github.com/joshcam/PHP-MySQLi-Database-Class
- * @version   1.1.0
- */
+
 class PDODb
 {
     /**

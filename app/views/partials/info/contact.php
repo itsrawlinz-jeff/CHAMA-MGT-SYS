@@ -36,22 +36,22 @@
 						<b class="chead"><span class="material-icons">location_on</span>Address | Location</b><br />
 						<p class="adr clearfix">
 							<span class="adr-group">
-								<span class="street-address">Company Location Address</span><br>
+								<span class="street-address">Amos Co.</span><br>
 								<span class="postal-code">P.O. Box 1111</span><br>
-								<span class="country-name">City, Country</span>
+								<span class="country-name">Nairobi,Kenya</span>
 							</span>
 						</p>
 					</p>
 					<hr />
 					<p>
 						<b class="chead"><span class="material-icons">contact_phone</span> Phone</b><br />
-						<span class="editContent"> +23354000000 / +233233000000</span>
+						<span class="editContent"> +25405498178</span>
 					</p>
 					<hr />
 
 					<p>
 						<b class="chead"><span class="material-icons">email</span> Email</b><br />
-						<a href="#" class="editContent">support@<?php echo SITE_NAME ?>.com</a>
+						<a href="#" class="editContent">support@amosco.com</a>
 					</p>
 				</div>
 			</div>

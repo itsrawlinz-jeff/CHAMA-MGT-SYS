@@ -15,11 +15,11 @@ class Menu{
 			'icon' => '<i class="fa fa-tachometer "></i>'
 		),
 		
-		array(
-			'path' => 'users', 
-			'label' => 'Users', 
-			'icon' => '<i class="fa fa-users "></i>'
-		),
+		// array(
+		// 	'path' => 'users', 
+		// 	'label' => 'Users', 
+		// 	'icon' => '<i class="fa fa-users "></i>'
+		// ),
 		
 		array(
 			'path' => 'complaints', 
@@ -27,17 +27,17 @@ class Menu{
 			'icon' => '<i class="fa fa-arrow-circle-left "></i>'
 		),
 		
-		array(
-			'path' => 'comment', 
-			'label' => 'Comment', 
-			'icon' => '<i class="fa fa-comments "></i>'
-		),
+		// array(
+		// 	'path' => 'comment', 
+		// 	'label' => 'Comment', 
+		// 	'icon' => '<i class="fa fa-comments "></i>'
+		// ),
 		
-		array(
-			'path' => 'staff', 
-			'label' => 'Staff', 
-			'icon' => '<i class="fa fa-optin-monster "></i>'
-		),
+		// array(
+		// 	'path' => 'users', 
+		// 	'label' => 'Users', 
+		// 	'icon' => '<i class="fa fa-optin-monster "></i>'
+		// ),
 		
 		array(
 			'path' => 'events', 
@@ -45,11 +45,11 @@ class Menu{
 			'icon' => '<i class="fa fa-level-down "></i>'
 		),
 		
-		array(
-			'path' => 'contributions', 
-			'label' => 'Contributions', 
-			'icon' => '<i class="fa fa-diamond fa-3x"></i>'
-		),
+		// array(
+		// 	'path' => 'contributions', 
+		// 	'label' => 'Contributions', 
+		// 	'icon' => '<i class="fa fa-diamond fa-3x"></i>'
+		// ),
 		
 		array(
 			'path' => 'loan', 
@@ -69,35 +69,35 @@ class Menu{
 			'icon' => '<i class="fa fa-bars fa-4x"></i>'
 		),
 		
-		array(
-			'path' => 'desciplinary', 
-			'label' => 'Desciplinary', 
-			'icon' => '<i class="fa fa-outdent fa-4x"></i>'
-		),
+		// array(
+		// 	'path' => 'desciplinary', 
+		// 	'label' => 'Desciplinary', 
+		// 	'icon' => '<i class="fa fa-outdent fa-4x"></i>'
+		// ),
 		
-		array(
-			'path' => 'logistic_asset', 
-			'label' => 'Logistic Asset', 
-			'icon' => '<i class="fa fa-folder-o fa-4x"></i>'
-		),
+		// array(
+		// 	'path' => 'logistic_asset', 
+		// 	'label' => 'Logistic Asset', 
+		// 	'icon' => '<i class="fa fa-folder-o fa-4x"></i>'
+		// ),
 		
-		array(
-			'path' => 'project', 
-			'label' => 'Project', 
-			'icon' => '<i class="fa fa-sliders fa-4x"></i>'
-		),
+		// array(
+		// 	'path' => 'project', 
+		// 	'label' => 'Project', 
+		// 	'icon' => '<i class="fa fa-sliders fa-4x"></i>'
+		// ),
 		
-		array(
-			'path' => 'loanpayment', 
-			'label' => 'Loanpayment', 
-			'icon' => '<i class="fa fa-slideshare fa-4x"></i>'
-		),
+		// array(
+		// 	'path' => 'loanpayment', 
+		// 	'label' => 'Loanpayment', 
+		// 	'icon' => '<i class="fa fa-slideshare fa-4x"></i>'
+		// ),
 		
-		array(
-			'path' => 'expenses', 
-			'label' => 'Expenses', 
-			'icon' => '<i class="fa fa-transgender fa-4x"></i>'
-		)
+		// array(
+		// 	'path' => 'expenses', 
+		// 	'label' => 'Expenses', 
+		// 	'icon' => '<i class="fa fa-transgender fa-4x"></i>'
+		// )
 	);
 		
 	
